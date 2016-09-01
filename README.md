@@ -13,7 +13,8 @@ redis集群、单节点、主从一键安装小脚本</br>
 7、配置参数请配置在str项，端口会自动从m_host_port、s_host_port提取</br>
 8、cluster选项为集群模式</br>
 9、replicate选项开启主从</br>
-10、安装包在install_pack文件夹下</br>
+10、安装包在install_pack文件夹下,也可自行替换,需修改对应config配置</br>
 11、可以在config.py中修改安装包名称</br>
 12、配置完成直接运行main.py</br>
 13、在执行安装脚本的服务器需安装python 的 fabric 模块</br>
+14、需在lib、config两个文件夹下手动创建__init__.py（上传之后就没了，表示不明白）
