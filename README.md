@@ -1,5 +1,8 @@
 # redis_install
 
+
+redis集群、单节点、主从一键安装小脚本</br>
+
 注意事项：</br>
 1、config/config.py 为所有配置项的配置文件</br>
 2、base_dir 为该工程所在目录，结尾部别带'/'</br>
